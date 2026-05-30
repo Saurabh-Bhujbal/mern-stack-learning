@@ -1,0 +1,45 @@
+#model{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(235, 12, 224);
+    animation-name: coloranim;
+    animation-duration: 3s;
+    
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    
+    
+}
+/* @keyframes coloranim{
+    from{
+        background-color: rgb(238, 166, 10);
+    }
+    to{
+        background-color: rgba(11, 64, 2, 0.888);
+        border-radius: 50%;
+    }
+} */
+@keyframes coloranim{
+    0%{border-radius: 5%;
+    background-color: aquamarine;}
+    10%{border-radius: 10%;
+    background-color: blue;}
+    20%{border-radius: 15%;
+    background-color: red;}
+    30%{border-radius: 18%;
+    background-color: green;}
+    40%{border-radius: 20%;
+    background-color: rgb(128, 0, 47);}
+    50%{border-radius: 25%;
+    background-color: rgb(92, 128, 0);}
+    60%{border-radius: 30%;
+    background-color: rgb(38, 7, 117);}
+    70%{border-radius: 35%;
+    background-color: rgb(186, 45, 45);}
+    80%{border-radius: 40%;
+    background-color: rgb(211, 152, 4);}
+    90%{border-radius: 45%;
+    background-color: rgb(43, 0, 128);}
+    100%{border-radius: 50%;
+    background-color: rgb(128, 0, 28);}
+}

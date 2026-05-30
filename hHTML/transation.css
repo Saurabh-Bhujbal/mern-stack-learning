@@ -1,0 +1,40 @@
+#sample{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(205, 109, 30, 0.3);
+}
+#model{
+    margin: 10px;
+     height: 200px;
+    width: 200px;
+    background-color: rgba(205, 109, 30);
+    opacity: 0.6;
+    box-shadow: 10px 15px 10px  rgb(42, 120, 115);
+}
+#trans{
+    box-shadow: 10px 15px 10px  black;
+    margin: 10px;
+    background-color: blueviolet;
+    height: 250px;
+    width: 250px;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+}
+#trans:hover{
+    background-color: brown;
+    border-radius: 50%;
+}
+h1{
+    padding: 2%;
+    transition-duration:1s;
+    transition-delay: 0.1s;
+
+}
+#trans:hover h1{
+    padding: 15%;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+}

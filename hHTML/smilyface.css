@@ -1,0 +1,33 @@
+#face{
+    background-color: rgb(243, 190, 29);
+    height: 200px;
+    width: 200px;
+    border: 1px;
+    border-radius: 50%;
+}
+#forhead{
+    padding-top:20%;
+}
+#eye1,#eye2{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(89, 12, 12);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#eye1{
+    left:40px;
+}
+#eye2{
+    left:130px;
+}
+#mouth{
+    position: absolute;
+    background-color: rgb(98, 16, 16);
+    height: 40px;
+    width: 120px;
+    top: 130px;;
+    left:45px;
+    border-radius: 0 0 20px 20px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>
+        JavaScript runs one line at a time, top to bottom.
+Now imagine you ask JavaScript to fetch data from the internet (like loading your Instagram feed). That takes time — maybe 2-3 seconds.
+Without promises, JavaScript would freeze and wait doing nothing. That would make your app feel broken!
+So instead, JavaScript says:
+
+"I'll start fetching the data. Here's a Promise — a guarantee that I'll give you the result once it's done. Meanwhile, keep running other code."
+What IS a Promise?
+A Promise is simply a box that says one of three things:
+⏳ PENDING   →  "Still working on it..."
+✅ FULFILLED →  "Done! Here's your result."
+❌ REJECTED  →  "Something went wrong. Sorry."
+Think of it like ordering something on Amazon:
+
+Pending = order placed, item on the way
+Fulfilled = item delivered to your door
+Rejected = delivery failed   
+</h4>
+<hr><h4> Creating a Promise : <br>
+    myPromise = new Promise( (resolve, reject) => {<br>
+    resolve("Success!");   // ✅ when things go RIGHT <br>
+    reject("Failed!");     // ❌ when things go WRONG <br>
+
+});</h4>
+<script src="promises.js"></script>
+</body>
+</html>

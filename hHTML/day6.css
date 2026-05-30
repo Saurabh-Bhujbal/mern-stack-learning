@@ -1,0 +1,54 @@
+p a{
+    color: blueviolet;
+}
+#signup{
+    background-color: brown;
+    color: aqua;
+}
+/* adjecent sibling combinator selector */
+p+h3{
+    /* p and h3 are at same level(they are not parent or child of each other) so to apply style 
+    on h3 which is appears after each P tag this style is used*/
+    text-decoration: underline;
+} 
+/* attribute selector */
+input[type="text"]{  
+    background-color: rgb(163, 241, 163);
+}
+input[type="password"]{
+    background-color: rgb(250, 172, 198);
+}
+#login:active{
+     /* occurs after click */
+    color: white;
+    background-color: blue;
+}
+#signup:active{
+    /* occurs after click */
+    color: white;
+    background-color: blue;
+}
+h3:hover{
+    text-decoration:overline;
+}
+button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+input[type="radio"]:checked +label {
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(2n){
+    background-color: aquamarine;
+}
+h1::first-letter{
+    color: blueviolet;
+}
+p::first-line{
+    color: brown;
+    font-weight: 700;
+}
+p::selection{
+    background-color: rgb(231, 131, 204);
+}

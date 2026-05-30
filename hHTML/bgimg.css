@@ -1,0 +1,17 @@
+div{
+    height: 600px;
+    width: 600px;
+    background-color: aquamarine;
+    margin: 20px;
+    color: white;
+    background-image: url(bgimg.jpg);
+}
+#one{
+    background-size: contain;
+}
+#two{
+     background-size: cover;
+}
+#three{
+     background-color: auto;
+}

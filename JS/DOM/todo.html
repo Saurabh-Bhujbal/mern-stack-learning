@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        div{
+            margin: auto;
+            height: 500px;
+            width:500px;
+            border: 1px solid black;
+            border-radius: 10%;
+            background-color: rgb(171, 156, 232);
+        }
+        input{
+            margin-top: 35px;
+            margin-left: 35px;
+            position: relative;
+            width: 80%;
+            height: 40px;
+            border-radius: 10%;
+            background-color: rgb(240, 191, 218);
+        }
+        button{
+            position: relative;
+            margin-top: 15px;
+            width: 80%;
+            height: 40px;
+            margin-left: 35px;
+            border-radius: 10%;
+            background-color: rgb(156, 232, 160);
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <div >
+        <input type="text" placeholder="enter your task" id="intask">
+    <button id="btn"> Add task</button>
+    <button id="show"> show tasks</button>
+    <input type="text" placeholder="enter Index" id="delint">
+    <button id="delete"> Delete</button>
+    <ul id="tasklist" style="text-decoration: none;">
+
+    </ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>

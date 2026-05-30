@@ -1,0 +1,49 @@
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    background-color: black;
+    width: 420px;
+    border-radius: 1rem;
+}
+.main-content{
+    background-color: #121212;;
+    flex:1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+
+}
+ .nav{
+    border-radius: 1rem;
+    background-color: #121212 ;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+
+} 
+.nav-optn a{
+
+        text-decoration: none;
+        color: white;
+}

@@ -6,5 +6,6 @@ let show=()=>{
 show();
 function display(){
     console.log(file.sum(8,13));
+    console.log(file.div(18,6));
 }
 display();

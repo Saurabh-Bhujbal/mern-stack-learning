@@ -9,3 +9,5 @@ let obj={
     mul:mul
 };
 module.exports=obj;
+//we can write export as also
+// exports.div=(a,b)=>(a/b);
